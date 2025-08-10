@@ -68,6 +68,7 @@ function updateCartQuantity(){
         console.log(cart)
 }
 
+
 document.querySelector('.js-products-grid').innerHTML = productsHTML
 document.querySelectorAll('.js-add-to-cart').forEach((button)=>{
     button.addEventListener('click', () => {
